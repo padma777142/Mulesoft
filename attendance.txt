@@ -1,0 +1,10 @@
+Attendance of student by Biometric
+Prerequisite
+1. Login Credentials  (firstly we have to enter our login credential like our register id)
+2. Id Matches  (register id is matched then it show successfully login)
+
+Scenario
+1. login successful
+2. Shows Scanner (nextly it shows to scan our finger)
+3. Scan our Finger (we should place our finger in fingerprint scanner)
+4. Successfully  (if finger matches it shows attendance successful (or) not successful)
