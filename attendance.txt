@@ -8,3 +8,6 @@ Scenario
 2. Shows Scanner (nextly it shows to scan our finger)
 3. Scan our Finger (we should place our finger in fingerprint scanner)
 4. Successfully  (if finger matches it shows attendance successful (or) not successful)
+
+Read
+Update
