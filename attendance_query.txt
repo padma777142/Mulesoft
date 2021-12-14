@@ -1,0 +1,35 @@
+Update Student Attendance:
+
+POST https://localhost-8081/stu-dir/update-attendance/524
+
+Request:body
+
+<student>
+	<student_id>524</student_id>
+	<status>place_finger_on_scanner</status>
+</student>
+
+Response:body
+
+<student_res>
+	<status>200</status>
+	<message>uploaded_successful</status>
+</student_res>
+
+READ Student Attendance:
+
+POST https://localhost-8081/stu-dir/read-attendance/524
+
+Request:body
+{
+	"student_id":524,
+	"student_name":"Guduri Lakshmipadma",
+	"status":"A"
+}
+
+Response:body
+{
+	"status":200,
+	"maessage":"successful"
+}
+
